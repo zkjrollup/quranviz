@@ -69,6 +69,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   .quote-mark{{ font-family:Georgia, serif; font-size:2.6rem; line-height:1; color:var(--cat); opacity:0.35; display:block; margin-bottom:-0.4rem; }}
   .quote-text{{ font-size:1.15rem; line-height:1.6; margin:0; }}
   .note{{ font-size:0.95rem; color:var(--ink-soft); border-left:2px solid var(--line); padding-left:1rem; margin-bottom:2rem; }}
+  .note strong{{ color:var(--ink); }}
   .note-label{{ font-size:0.7rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--cat); display:block; margin-bottom:0.4rem; }}
   .verses-section{{ margin-bottom:2rem; }}
   .verses-label{{ font-size:0.7rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--cat); display:block; margin-bottom:0.8rem; }}
