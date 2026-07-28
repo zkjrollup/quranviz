@@ -306,7 +306,20 @@ const W = 1400, H = 560;
 svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
 svg.setAttribute('preserveAspectRatio', 'none');
 
-function xScale(p){ return (p / TOTAL) * W; }
+const SURAH_WEIGHTS = SURAH_LENGTHS.map(len => Math.sqrt(len));
+const CUM_WEIGHT = [0];
+for(let i=0;i<SURAH_WEIGHTS.length;i++){ CUM_WEIGHT.push(CUM_WEIGHT[i] + SURAH_WEIGHTS[i]); }
+const TOTAL_WEIGHT = CUM_WEIGHT[CUM_WEIGHT.length-1];
+
+function visualX(p){
+  let s = 0;
+  while(s < CUM.length - 1 && CUM[s+1] <= p){ s++; }
+  const fraction = SURAH_LENGTHS[s] > 0 ? (p - CUM[s]) / SURAH_LENGTHS[s] : 0;
+  return (CUM_WEIGHT[s] + fraction * SURAH_WEIGHTS[s]) / TOTAL_WEIGHT * 100;
+}
+
+function xScale(p){ return visualX(p) / 100 * W; }
+
 
 let colorMode = 'crimson';
 let activeCluster = 'all';
@@ -405,7 +418,8 @@ function renderWaveform(){
     bar.className = 'wave-bar';
     bar.style.height = (len / max * 100) + '%';
     bar.style.flex = 'none';
-    bar.style.width = (len / TOTAL * 100) + '%';
+    bar.style.width = (SURAH_WEIGHTS[i] / TOTAL_WEIGHT * 100) + '%';
+    bar.style.marginRight = '1px';
     bar.style.cursor = 'pointer';
     bar.dataset.surah = surahNum;
 
@@ -624,7 +638,7 @@ allVerses.forEach(v => { if(!(v.surah in firstAyahForSurah)) firstAyahForSurah[v
           bar.title = `Surah ${surahNum} — ${len} verses`;
 
           bar.style.flex = 'none';
-          bar.style.width = (len / TOTAL * 100) + '%';
+          bar.style.width = (SURAH_WEIGHTS[i] / TOTAL_WEIGHT * 100) + '%';
           bar.style.height = Math.max(2, (len / max) * 100) + '%';
 
           const baseColor = isContradiction
