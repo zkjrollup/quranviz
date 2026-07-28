@@ -202,15 +202,20 @@
     <div class="custom-select-options" id="clusterOptions"></div>
   </div>
 </div>
-    <div class="field">
-      <label>Color</label>
-      <select id="colorMode">
-        <option value="crimson">Crimson</option>
-        <option value="rainbow">Rainbow (by cluster)</option>
-      </select>
+<div class="field">
+  <label>Color</label>
+  <div class="custom-select" id="colorModeSelect">
+    <button type="button" class="custom-select-trigger" id="colorModeTrigger">
+      <span class="dot" style="background:#E23A4E"></span>
+      <span id="colorModeTriggerLabel">Crimson</span>
+      <span class="chevron">⌄</span>
+    </button>
+    <div class="custom-select-options" id="colorModeOptions">
+      <div class="custom-select-option selected" data-value="crimson"><span class="dot" style="background:#E23A4E"></span>Crimson</div>
+      <div class="custom-select-option" data-value="rainbow"><span class="dot" style="background:linear-gradient(90deg,#FF3B54,#A64DFF,#3D8BFF,#2ECC71)"></span>Rainbow (by cluster)</div>
     </div>
-    <div class="see-list" id="seeList">See full list ⤵</div>
   </div>
+</div>
 
   <div class="tooltip-panel" id="tooltipPanel">
     <div class="placeholder">Hover over an arc to see what it connects.</div>
@@ -344,7 +349,7 @@ function renderArcs(){
       path.classList.add('dim');
       path.style.opacity = 0.06;
     } else {
-      path.style.opacity = 0.22;
+      path.style.opacity = colorMode === 'rainbow' ? 0.5 : 0.22;
     }
 
     // events now live on hitPath, but they still control the visible `path`
@@ -486,10 +491,30 @@ function populateFilter(){
     }
   });
 
-  document.getElementById('colorMode').addEventListener('change', (e) => {
-    colorMode = e.target.value;
+const colorModeOptionsWrap = document.getElementById('colorModeOptions');
+const colorModeTrigger = document.getElementById('colorModeTrigger');
+const colorModeTriggerLabel = document.getElementById('colorModeTriggerLabel');
+
+colorModeOptionsWrap.querySelectorAll('.custom-select-option').forEach(opt => {
+  opt.addEventListener('click', () => {
+    colorMode = opt.dataset.value;
+    colorModeTriggerLabel.textContent = opt.textContent.trim();
+    colorModeOptionsWrap.querySelectorAll('.custom-select-option').forEach(o => o.classList.remove('selected'));
+    opt.classList.add('selected');
+    colorModeOptionsWrap.classList.remove('open');
     renderArcs();
   });
+});
+
+colorModeTrigger.addEventListener('click', (e) => {
+  e.stopPropagation();
+  colorModeOptionsWrap.classList.toggle('open');
+});
+document.addEventListener('click', (e) => {
+  if(!document.getElementById('colorModeSelect').contains(e.target)){
+    colorModeOptionsWrap.classList.remove('open');
+  }
+});
 }
 
 document.getElementById('seeList').addEventListener('click', () => {
