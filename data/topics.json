@@ -42,7 +42,7 @@
         "clay like pottery"
       ]
     ],
-    "arc_color": "#E23A4E",
+    "arc_color": "#FF3B54",
     "contested_wording": [
       {
         "ref": "Surah 15:26",
@@ -115,7 +115,7 @@
         "descend"
       ]
     ],
-    "arc_color": "#6A3FA0",
+    "arc_color": "#A64DFF",
     "contested_wording": [
       {
         "ref": "Surah 20:121-122",
@@ -176,7 +176,7 @@
         "disbelievers who say God is one of three"
       ]
     ],
-    "arc_color": "#3F8C4A",
+    "arc_color": "#2ECC71",
     "contested_wording": [
       {
         "ref": "Surah 2:62",
@@ -236,7 +236,7 @@
         "intercession of intercessors will not help them"
       ]
     ],
-    "arc_color": "#2F5FA0",
+    "arc_color": "#3D8BFF",
     "contested_wording": [
       {
         "ref": "Surah 2:255",
@@ -303,7 +303,7 @@
         "\"abomination, avoid it\""
       ]
     ],
-    "arc_color": "#A83368",
+    "arc_color": "#FF4DA6",
     "contested_wording": [
       {
         "ref": "Surah 16:67",
@@ -359,7 +359,7 @@
         "earth \"after that\""
       ]
     ],
-    "arc_color": "#D9702E",
+    "arc_color": "#FF8C3D",
     "contested_wording": [
       {
         "ref": "Surah 2:29",
@@ -409,7 +409,7 @@
         "\"we disown you\""
       ]
     ],
-    "arc_color": "#8C6B1E",
+    "arc_color": "#C9A227",
     "contested_wording": [
       {
         "ref": "Surah 9:114",
@@ -464,7 +464,7 @@
         "\"We guided him, be he grateful or ungrateful\""
       ]
     ],
-    "arc_color": "#4A90D9",
+    "arc_color": "#00E5FF",
     "contested_wording": [
       {
         "ref": "Surah 74:31",
@@ -579,7 +579,7 @@
         "2 days: heavens"
       ]
     ],
-    "arc_color": "#D9A441",
+    "arc_color": "#FFD54F",
     "contested_wording": [
       {
         "ref": "Surah 7:54, 10:3, 11:7",
@@ -635,7 +635,7 @@
         "\"among the drowned\""
       ]
     ],
-    "arc_color": "#1E8A8C",
+    "arc_color": "#1DE9C4",
     "contested_wording": [
       {
         "ref": "Surah 21:76",
@@ -1099,5 +1099,60 @@
     "text": "Solomon asks his court who can bring him the Queen of Sheba's throne before she arrives; a jinn offers to bring it before he rises from his seat, but \"one who had knowledge of the Scripture\" brings it instantly, faster than the blink of an eye.",
     "note": "The text explicitly frames this as a supernatural sign (\"this is by the favor of my Lord,\" 27:40), not an ordinary physical claim — so it's presented as miraculous by its own terms, similar to Solomon's other reported abilities in the same narrative. Critics note it's still recounted as literal historical event within the text's narrative logic, involving what amounts to instantaneous long-distance matter transportation, centuries before any physical framework that could account for it.",
     "link": "https://quran.com/27/38"
+  },
+  {
+    "slug": "amputation-for-theft",
+    "title": "Does the Quran require amputating a thief's hand?",
+    "category": "cruel",
+    "category_label": "Cruelty & Violence",
+    "color": "#B23A2E",
+    "ref": "Surah 5:38-39",
+    "text": "Instructs cutting off the hand of a male or female thief as retribution and a deterrent punishment from God, immediately followed by a promise that God forgives whoever repents afterward.",
+    "note": "Classical scholarship (Ibn Kathir, and the historical case of a woman whose hand was cut off in the Prophet's own time despite an offer of ransom) reads the repentance clause in 5:39 as forgiveness in the *afterlife* sense, not a legal pardon that cancels the earthly punishment — the two are treated as separate tracks. A minority of modern \"Quran-alone\" reformists argue the Arabic root for \"cut\" (qata'a) can carry a metaphorical sense (severing someone's means or opportunity to steal again) rather than literal amputation, though this reading is a distinct minority position rejected by both classical and most contemporary scholarship.",
+    "link": "https://quran.com/5/38"
+  },
+  {
+    "slug": "flogging-for-fornication",
+    "title": "Does the Quran instruct showing no pity while flogging unmarried people for sex?",
+    "category": "cruel",
+    "category_label": "Cruelty & Violence",
+    "color": "#B23A2E",
+    "ref": "Surah 24:2",
+    "text": "Instructs 100 lashes for unmarried people found guilty of sexual intercourse, explicitly stating that no pity for them should prevent carrying out the punishment, to be witnessed by a group of believers.",
+    "note": "Commonly cited in mitigation: the Quran elsewhere (4:15, and this same surah's verse 13) sets an extremely high evidentiary bar — four eyewitnesses to the actual act — making a valid conviction under the letter of the law very rare in practice; some scholars argue this near-impossible standard functions as a practical deterrent against ever actually carrying out the punishment, more than a realistic enforcement mechanism. Critics counter that the explicit \"let no pity overcome you\" language remains a striking textual instruction regardless of how rarely it could be legally applied.",
+    "link": "https://quran.com/24/2"
+  },
+  {
+    "slug": "eye-for-an-eye-retaliation",
+    "title": "Does the Quran command \"an eye for an eye\" retaliation?",
+    "category": "cruel",
+    "category_label": "Cruelty & Violence",
+    "color": "#B23A2E",
+    "ref": "Surah 2:178, 5:45",
+    "text": "Establishes a law of retaliation (qisas) — a life for a life, an eye for an eye, a wound for a wound — while also stating that whoever forgoes retaliation as charity, it serves as expiation.",
+    "note": "Widely read by classical and modern scholars alike as a *limiting* reform rather than a harsh innovation — pre-Islamic Arabian custom often involved disproportionate tribal revenge (killing multiple people, or someone of higher status than the original victim, in retaliation for one death), and this law caps retribution at exact proportional equivalence while actively encouraging forgiveness instead. Critics note that whatever its historical improvement over prior custom, the law still codifies literal corporal retaliation (an eye actually being removed) as a default legal option, not merely a metaphor.",
+    "link": "https://quran.com/2/178"
+  },
+  {
+    "slug": "smite-the-necks-in-battle",
+    "title": "What does \"smite the necks\" of unbelievers in battle actually instruct?",
+    "category": "cruel",
+    "category_label": "Cruelty & Violence",
+    "color": "#B23A2E",
+    "ref": "Surah 47:4",
+    "text": "Instructs believers, upon meeting unbelievers in battle, to smite their necks; once the enemy is subdued, captives are to be bound, then later released either by an act of grace or for ransom, until the war ends.",
+    "note": "Often cited by commentators (including Qur'an Wiki's analysis) as comparatively restrained for its era — the verse explicitly limits the treatment of captives to only two options, release or ransom, with no mention of execution or enslavement as alternatives, which several scholars read as a real constraint on wartime conduct relative to contemporary norms. Critics note the verse is nonetheless describing literal combat instructions using graphic language (smiting necks, \"until you have crushed them\"), not a purely defensive or metaphorical framing, and that hadith literature (e.g., \"jihad shall continue until the Day of Judgment\") extends its application well beyond the immediate historical battle.",
+    "link": "https://quran.com/47/4"
+  },
+  {
+    "slug": "skins-renewed-in-hellfire",
+    "title": "Does the Quran describe skin being regrown specifically so torment can continue?",
+    "category": "cruel",
+    "category_label": "Cruelty & Violence",
+    "color": "#B23A2E",
+    "ref": "Surah 4:56",
+    "text": "Describes those who reject God's signs as being burned in Fire; whenever their skin is thoroughly burned, God will replace it with new skin so they may taste the punishment again — described as an expression of God's might and wisdom.",
+    "note": "Traditional theology frames this as illustrating the totality and justice of divine punishment (Al-'Aziz, Al-Hakim) rather than gratuitous cruelty — sensation and accountability continuing without a merciful end for unrepentant rejection. This is a different genre from the earthly legal punishments elsewhere in this category (a description of the afterlife, not a command directed at believers to carry out), though critics note it's still a deliberately engineered mechanism for perpetuating physical suffering, presented without qualification or limit.",
+    "link": "https://quran.com/4/56"
   }
 ]
