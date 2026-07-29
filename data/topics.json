@@ -534,7 +534,27 @@
     "ref": "Surah 15:26 vs. 19:67 vs. 23:12",
     "text": "Man is described as created from clay, from nothing, and from a sperm-drop in different passages.",
     "note": "Often read as describing different stages of creation rather than competing accounts, though critics argue the wording doesn't always support that reading.",
-    "link": "https://quran.com/15/26"
+    "link": "https://quran.com/15/26",
+    "contested_wording": [
+      {
+        "ref": "Surah 15:26",
+        "transliteration": "min ṣalṣālin min ḥama'in masnūn",
+        "arabic": "مِن صَلْصَالٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+        "gloss": "\"from sounding clay, from altered black mud\""
+      },
+      {
+        "ref": "Surah 19:67",
+        "transliteration": "khalaqnāhu min qablu wa lam yaku shay'an",
+        "arabic": "خَلَقْنَاهُ مِن قَبْلُ وَلَمْ يَكُ شَيْئًا",
+        "gloss": "\"We created him before, when he was nothing\""
+      },
+      {
+        "ref": "Surah 23:12",
+        "transliteration": "min sulālatin min ṭīn",
+        "arabic": "مِن سُلَالَةٍ مِّن طِينٍ",
+        "gloss": "\"from an extract of clay\""
+      }
+    ]
   },
   {
     "slug": "six-days-or-eight",
@@ -666,7 +686,21 @@
     "ref": "Surah 33:37, cf. 33:4-5",
     "text": "After Zayd — Muhammad's freed slave and adopted son — divorces his wife Zaynab, a verse arrives stating that God married her to Muhammad specifically so that believers would have no difficulty marrying the divorced wives of their adopted sons, and that Muhammad had privately concealed what God intended to reveal.",
     "note": "This is not a contradiction between 33:4-5 and 33:37 — the two are consistent with each other: 33:4-5 establishes that adopted sons aren't legally equivalent to biological sons, and 33:37 explicitly presents itself as the real-world precedent demonstrating that same rule, not an unrelated event. Even critical sources acknowledge this directly.<br><br><strong>The actual dispute is over authenticity and timing, not logic:</strong> citing historian al-Tabari's account, critics argue Muhammad had grown attracted to Zaynab before Zayd's divorce, and that a conveniently-timed revelation supplied religious sanction for a marriage he already wanted — making this a question about whether the revelation was genuine or a self-interested rationalization.<br><br><strong>Traditional and modern apologetic responses</strong> (e.g. Ibn Kathir, and contemporary writers like Kaleef Karim) reject the Tabari account as a later, unreliable fabrication intended to defame Muhammad, and read the marriage as deliberate divine legislation — using the Prophet's own life, deliberately, to break a deeply entrenched pre-Islamic taboo that could not have been dismantled by mere instruction alone.",
-    "link": "https://quran.com/33/37"
+    "link": "https://quran.com/33/37",
+    "contested_wording": [
+      {
+        "ref": "Surah 33:4-5",
+        "transliteration": "wa mā ja'ala ad'iyā'akum abnā'akum",
+        "arabic": "وَمَا جَعَلَ أَدْعِيَاءَكُمْ أَبْنَاءَكُمْ",
+        "gloss": "\"nor has He made your adopted sons your [real] sons\""
+      },
+      {
+        "ref": "Surah 33:37",
+        "transliteration": "fa-lammā qaḍā Zaydun minhā waṭaran zawwajnākahā",
+        "arabic": "فَلَمَّا قَضَىٰ زَيْدٌ مِّنْهَا وَطَرًا زَوَّجْنَاكَهَا",
+        "gloss": "\"so when Zayd had no longer any need for her, We married her to you\""
+      }
+    ]
   },
   {
     "slug": "strike-above-the-necks",
@@ -828,10 +862,48 @@
     "category": "anachronism",
     "category_label": "Historical Anachronisms",
     "color": "#C9972E",
-    "ref": "Surah 28:6, 28:38, 29:39, 40:24, 40:36-37",
+    "ref": "Surah 28:6, 28:8, 28:38, 29:39, 40:24, 40:36-37",
     "text": "Haman appears repeatedly as a minister in the Egyptian Pharaoh's court during the time of Moses, tasked at one point with building a tower to reach the heavens.",
     "note": "Outside the Quran, Haman is a figure from the Book of Esther — a minister to the Persian king Ahasuerus, roughly 900 years after Moses and in a different empire entirely. Some scholars read this as a title or literary echo rather than a strict historical claim, and note the name may have circulated independently in regional storytelling; others see it as a straightforward anachronism carried over from conflating separate traditions.",
-    "link": "https://quran.com/28/6"
+    "link": "https://quran.com/28/6",
+    "contested_wording": [
+      {
+        "ref": "Surah 28:6",
+        "transliteration": "wa Fir'awna wa Hāmāna wa junūdahumā",
+        "arabic": "وَفِرْعَوْنَ وَهَٰمَٰنَ وَجُنُودَهُمَا",
+        "gloss": "\"and Pharaoh and Haman and their soldiers\" — Haman named directly alongside Pharaoh"
+      },
+      {
+        "ref": "Surah 28:8",
+        "transliteration": "inna Fir'awna wa Hāmāna wa junūdahumā kānū khāṭi'īn",
+        "arabic": "إِنَّ فِرْعَوْنَ وَهَامَانَ وَجُنُودَهُمَا كَانُوا خَاطِئِينَ",
+        "gloss": "\"indeed, Pharaoh, Haman, and their soldiers were sinners\""
+      },
+      {
+        "ref": "Surah 28:38",
+        "transliteration": "yā Hāmānu ibni lī ṣarḥan",
+        "arabic": "يَا هَامَانُ ابْنِ لِي صَرْحًا",
+        "gloss": "\"O Haman, build for me a tower\" — Pharaoh's direct command to Haman"
+      },
+      {
+        "ref": "Surah 29:39",
+        "transliteration": "wa Qārūna wa Fir'awna wa Hāmāna",
+        "arabic": "وَقَارُونَ وَفِرْعَوْنَ وَهَامَانَ",
+        "gloss": "\"and Korah, and Pharaoh, and Haman\" — all three named among those destroyed for arrogance"
+      },
+      {
+        "ref": "Surah 40:24",
+        "transliteration": "ilā Fir'awna wa Hāmāna wa Qārūn",
+        "arabic": "إِلَىٰ فِرْعَوْنَ وَهَامَانَ وَقَارُونَ",
+        "gloss": "\"to Pharaoh, Haman, and Korah\" — Moses and Aaron sent to all three together"
+      },
+      {
+        "ref": "Surah 40:36-37",
+        "transliteration": "wa qāla Fir'awnu yā Hāmānu ibni lī ṣarḥan la'allī ablughu al-asbāb",
+        "arabic": "وَقَالَ فِرْعَوْنُ يَا هَامَانُ ابْنِ لِي صَرْحًا لَّعَلِّي أَبْلُغُ الْأَسْبَابَ",
+        "gloss": "\"and Pharaoh said, O Haman, build for me a tower so that I may reach the ways\" — the fullest version of the tower request, explicitly to \"see the God of Moses\""
+      }
+    ]
   },
   {
     "slug": "the-samaritan-anachronism",
@@ -842,7 +914,21 @@
     "ref": "Surah 20:85-87, 20:95-97",
     "text": "A figure called \"al-Samiri\" (\"the Samaritan\") is blamed for crafting the golden calf during the Exodus from Egypt.",
     "note": "The Samaritan people, and the city of Samaria they're named for, didn't exist until centuries after Moses' era, following the Assyrian conquest of the northern kingdom of Israel. Some commentators propose \"al-Samiri\" may reflect an unrelated tribal or personal name rather than a reference to Samaritans specifically; the identification remains debated among both classical and modern scholars.",
-    "link": "https://quran.com/20/85"
+    "link": "https://quran.com/20/85",
+    "contested_wording": [
+      {
+        "ref": "Surah 20:85",
+        "transliteration": "wa aḍallahumu as-Sāmiriyy",
+        "arabic": "وَأَضَلَّهُمُ السَّامِرِيُّ",
+        "gloss": "\"and as-Samiri led them astray\""
+      },
+      {
+        "ref": "Surah 20:95-96",
+        "transliteration": "qāla fa-mā khaṭbuka yā Sāmiriyy... qāla baṣurtu bimā lam yabṣurū bihi",
+        "arabic": "قَالَ فَمَا خَطْبُكَ يَا سَامِرِيُّ ۖ قَالَ بَصُرْتُ بِمَا لَمْ يَبْصُرُوا بِهِ",
+        "gloss": "\"he said, what is your case, O Samiri? He said, I saw what they did not see\""
+      }
+    ]
   },
   {
     "slug": "mary-miriam-conflation",
@@ -853,7 +939,21 @@
     "ref": "Surah 19:28, 66:12",
     "text": "Mary is addressed as \"sister of Aaron\" and identified as the daughter of \"Imran\" (Amram) — names that belong to Moses' sister Miriam and her father, who lived roughly 1,300 years before Mary.",
     "note": "Traditional tafsir explains \"sister of Aaron\" as an honorific for belonging to a priestly lineage (much as an Arabic speaker might call a pious man \"brother of so-and-so\" without a literal sibling relationship), not a genealogical claim. Critics find this explanation strained given how specifically Imran and Aaron are named elsewhere in the same text.",
-    "link": "https://quran.com/19/28"
+    "link": "https://quran.com/19/28",
+    "contested_wording": [
+      {
+        "ref": "Surah 19:28",
+        "transliteration": "yā ukhta Hārūna mā kāna abūki imra'a saw'in",
+        "arabic": "يَا أُخْتَ هَارُونَ مَا كَانَ أَبُوكِ امْرَأَ سَوْءٍ",
+        "gloss": "\"O sister of Aaron, your father was not a man of evil\""
+      },
+      {
+        "ref": "Surah 66:12",
+        "transliteration": "wa Maryama ibnata 'Imrān",
+        "arabic": "وَمَرْيَمَ ابْنَتَ عِمْرَانَ",
+        "gloss": "\"and Mary, daughter of Imran\""
+      }
+    ]
   },
   {
     "slug": "trinity-as-father-son-mary",
@@ -875,7 +975,21 @@
     "ref": "Surah 22:47, 32:5 vs. 70:4",
     "text": "Two passages describe a day with God as equal to a thousand years; another describes the angels and the Spirit ascending to Him in a day equal to fifty thousand years.",
     "note": "Commentators generally read these as describing different things entirely — one about divine timelessness in general, the other specifically about the length of the Day of Judgment — rather than a fixed, contradictory conversion rate. Critics counter that both are still presented as measures of \"a day\" relative to God, which is where the tension lies.",
-    "link": "https://quran.com/22/47"
+    "link": "https://quran.com/22/47",
+    "contested_wording": [
+      {
+        "ref": "Surah 22:47, 32:5",
+        "transliteration": "yawman 'inda rabbika ka-alfi sanatin mimmā ta'uddūn",
+        "arabic": "يَوْمًا عِندَ رَبِّكَ كَأَلْفِ سَنَةٍ مِّمَّا تَعُدُّونَ",
+        "gloss": "\"a day with your Lord is like a thousand years of what you count\""
+      },
+      {
+        "ref": "Surah 70:4",
+        "transliteration": "fī yawmin kāna miqdāruhu khamsīna alfa sanah",
+        "arabic": "فِي يَوْمٍ كَانَ مِقْدَارُهُ خَمْسِينَ أَلْفَ سَنَةٍ",
+        "gloss": "\"in a Day the extent of which is fifty thousand years\""
+      }
+    ]
   },
   {
     "slug": "bearing-others-sins",
@@ -895,7 +1009,13 @@
         "gloss": "\"no bearer of burdens will bear the burden of another\""
       },
       {
-        "ref": "Surah 29:13",
+        "ref": "Surah 5:29",
+        "transliteration": "innī urīdu an tabū'a bi-ithmī wa ithmik",
+        "arabic": "إِنِّي أُرِيدُ أَن تَبُوءَ بِإِثْمِي وَإِثْمِكَ",
+        "gloss": "\"I want you to bear my sin and your sin\" — Abel to Cain"
+      },
+      {
+        "ref": "Surah 16:25, 29:13",
         "transliteration": "wa la-yaḥmilunna athqālahum wa athqālan ma'a athqālihim",
         "arabic": "وَلَيَحْمِلُنَّ أَثْقَالَهُمْ وَأَثْقَالًا مَّعَ أَثْقَالِهِمْ",
         "gloss": "\"they will surely carry their own burdens, and burdens along with their own burdens\""
@@ -911,7 +1031,27 @@
     "ref": "Surah 32:11 vs. 4:97, 6:61, 8:50",
     "text": "One verse describes \"the angel of death\" (singular) as the one put in charge of taking souls; several other verses describe \"angels\" (plural) doing the same task.",
     "note": "A common harmonization treats this the way a single police chief might command a squad — one angel in overall charge, with subordinate angels carrying out the task — rather than a strict either/or claim. Whether the text itself actually supports that reading, or whether it's a reconciliation applied after the fact, is where critics and traditional exegetes part ways.",
-    "link": "https://quran.com/32/11"
+    "link": "https://quran.com/32/11",
+    "contested_wording": [
+      {
+        "ref": "Surah 32:11",
+        "transliteration": "yatawaffākum malaku al-mawti alladhī wukkila bikum",
+        "arabic": "يَتَوَفَّاكُم مَّلَكُ الْمَوْتِ الَّذِي وُكِّلَ بِكُمْ",
+        "gloss": "\"the angel of death, who has been put in charge of you, will take your souls\" (singular)"
+      },
+      {
+        "ref": "Surah 4:97, 8:50",
+        "transliteration": "tatawaffāhumu al-malā'ika",
+        "arabic": "تَتَوَفَّاهُمُ الْمَلَائِكَةُ",
+        "gloss": "\"the angels take them in death\" (plural)"
+      },
+      {
+        "ref": "Surah 6:61",
+        "transliteration": "tawaffathu rusulunā",
+        "arabic": "تَوَفَّتْهُ رُسُلُنَا",
+        "gloss": "\"Our messengers take him\" (a third phrasing)"
+      }
+    ]
   },
   {
     "slug": "mountains-as-pegs",
@@ -922,7 +1062,21 @@
     "ref": "Surah 16:15, 21:31, 31:10, 78:6-7",
     "text": "The earth is described as spread out flat with mountains cast into it like pegs (awtad), so that it does not shake with its inhabitants.",
     "note": "A popular modern apologetic claim reads this as anticipating isostasy — the idea that mountains have deep roots anchoring them, much like a peg. Geologists and historians of science more commonly read \"pegs\" as ordinary Late Antique cosmological imagery (mountains as tent-stakes holding down a flat earth), found in comparable form in pre-Islamic Near Eastern texts, rather than a specific geological claim.",
-    "link": "https://quran.com/78/6"
+    "link": "https://quran.com/78/6",
+    "contested_wording": [
+      {
+        "ref": "Surah 78:6-7",
+        "transliteration": "a-lam naj'ali al-arḍa mihādā, wa al-jibāla awtādā",
+        "arabic": "أَلَمْ نَجْعَلِ الْأَرْضَ مِهَادًا وَالْجِبَالَ أَوْتَادًا",
+        "gloss": "\"have We not made the earth a resting place, and the mountains as pegs?\""
+      },
+      {
+        "ref": "Surah 16:15, 21:31, 31:10",
+        "transliteration": "wa alqā fī al-arḍi rawāsiya an tamīda bikum",
+        "arabic": "وَأَلْقَىٰ فِي الْأَرْضِ رَوَاسِيَ أَن تَمِيدَ بِكُمْ",
+        "gloss": "\"He cast into the earth firmly-set mountains, lest it shift with you\""
+      }
+    ]
   },
   {
     "slug": "iron-sent-down-from-the-sky",
@@ -944,7 +1098,21 @@
     "ref": "Surah 22:5, 23:12-14",
     "text": "Human development is described in stages: a drop, then a clinging clot (alaqah), then a chewed-like lump (mudghah), then bones clothed with flesh.",
     "note": "This claim gained wide popularity after embryologist Keith Moore endorsed it in a 1980s textbook edition co-produced with Saudi funding — an endorsement that has since been widely criticized by other scientists as promotional rather than an independent scientific assessment. Historians of science note that the staged terminology closely parallels Galenic and Hippocratic embryology already circulating in the 7th-century Near East, predating the Quran by centuries.",
-    "link": "https://quran.com/23/12"
+    "link": "https://quran.com/23/12",
+    "contested_wording": [
+      {
+        "ref": "Surah 23:13-14",
+        "transliteration": "thumma khalaqnā an-nuṭfata 'alaqatan fa-khalaqnā al-'alaqata muḍghatan",
+        "arabic": "ثُمَّ خَلَقْنَا النُّطْفَةَ عَلَقَةً فَخَلَقْنَا الْعَلَقَةَ مُضْغَةً",
+        "gloss": "\"then We made the drop into a clinging clot, then We made the clot into a lump\""
+      },
+      {
+        "ref": "Surah 22:5",
+        "transliteration": "min nuṭfatin thumma min 'alaqatin thumma min muḍghah",
+        "arabic": "مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ",
+        "gloss": "the same staged sequence repeated"
+      }
+    ]
   },
   {
     "slug": "expanding-universe-claim",
@@ -988,7 +1156,21 @@
     "ref": "Surah 2:217, 3:86-87, 16:106",
     "text": "Apostates are described as having their deeds rendered worthless, and facing God's wrath and Hellfire — described consistently as a Day of Judgment consequence rather than an earthly one.",
     "note": "A common misconception, shared by some critics and some traditional apologists alike, is that the Quran itself commands execution for apostasy. Multiple contemporary scholars (including Mohammad Hashim Kamali and Muhammad Abed al-Jabiri) have argued the Quranic text specifies only otherworldly punishment; the death penalty found in classical Islamic law derives primarily from hadith and juristic reasoning tied to the historical Ridda wars, not a direct Quranic verse — a distinction reformist scholars consider significant, and traditionalist scholars often dispute.",
-    "link": "https://quran.com/2/217"
+    "link": "https://quran.com/2/217",
+    "contested_wording": [
+      {
+        "ref": "Surah 2:217",
+        "transliteration": "wa man yartadid minkum 'an dīnihi fa-yamut wa huwa kāfirun fa-ulā'ika ḥabiṭat a'māluhum",
+        "arabic": "وَمَن يَرْتَدِدْ مِنكُمْ عَن دِينِهِ فَيَمُتْ وَهُوَ كَافِرٌ فَأُولَٰئِكَ حَبِطَتْ أَعْمَالُهُمْ",
+        "gloss": "\"whoever of you reverts from his religion and dies a disbeliever, their deeds become worthless\""
+      },
+      {
+        "ref": "Surah 16:106",
+        "transliteration": "man kafara billāhi min ba'di īmānihi... fa-'alayhim ghaḍabun min Allāh",
+        "arabic": "مَن كَفَرَ بِاللَّهِ مِن بَعْدِ إِيمَانِهِ ... فَعَلَيْهِمْ غَضَبٌ مِّنَ اللَّهِ",
+        "gloss": "\"whoever disbelieves in God after his belief... upon them is wrath from God\""
+      }
+    ]
   },
   {
     "slug": "slavery-and-what-the-right-hand-possesses",
@@ -999,7 +1181,21 @@
     "ref": "Surah 4:24, 23:5-6, 33:50, 70:29-30",
     "text": "Several passages permit sexual relations with wives, \"or those whom their right hands possess\" — a phrase classical exegetes overwhelmingly identified with female war captives and slaves.",
     "note": "Classical commentators (e.g., al-Qurtubi) read this straightforwardly as permitting a master to have relations with an enslaved woman without marriage. A minority of modern reformist scholars argue the phrase has been misread, and that it more narrowly refers to women already lawfully married under the owner's authority, not license for a new sexual relationship — a reading rejected by most classical and many contemporary Islamic jurists as inconsistent with the historical exegetical record.",
-    "link": "https://quran.com/23/5"
+    "link": "https://quran.com/23/5",
+    "contested_wording": [
+      {
+        "ref": "Surah 23:5-6, 70:29-30",
+        "transliteration": "illā 'alā azwājihim aw mā malakat aymānuhum",
+        "arabic": "إِلَّا عَلَىٰ أَزْوَاجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَانُهُمْ",
+        "gloss": "\"except from their wives or those whom their right hands possess\""
+      },
+      {
+        "ref": "Surah 4:24, 33:50",
+        "transliteration": "mā malakat aymānukum",
+        "arabic": "مَا مَلَكَتْ أَيْمَانُكُمْ",
+        "gloss": "\"what your right hands possess\" — the same phrase repeated"
+      }
+    ]
   },
   {
     "slug": "the-satanic-verses-incident",
@@ -1054,7 +1250,27 @@
     "ref": "Surah 15:16-18, 37:6-10, 67:5",
     "text": "Stars are described as adorning the lowest heaven and serving as missiles hurled at devils (jinn) who try to eavesdrop on the angels' assembly, driving them away with a pursuing flame.",
     "note": "Some commentators read \"shihāb\" (translated \"missile\"/\"flame\") more broadly as a blaze or flare rather than a literal projectile, softening the mechanical claim. Read plainly, though, the text presents a real causal mechanism — meteors exist specifically to repel eavesdropping spirits — which doesn't correspond to the actual physics of meteoroids burning up on atmospheric entry. The concept closely parallels earlier Jewish and Zoroastrian mythology about stars guarding the heavens, suggesting shared pre-modern cosmology rather than a scientific claim.",
-    "link": "https://quran.com/37/6"
+    "link": "https://quran.com/37/6",
+    "contested_wording": [
+      {
+        "ref": "Surah 15:17-18",
+        "transliteration": "wa ḥafiẓnāhā min kulli shayṭānin rajīm",
+        "arabic": "وَحَفِظْنَاهَا مِن كُلِّ شَيْطَانٍ رَّجِيمٍ",
+        "gloss": "\"and We guarded it from every accursed devil\""
+      },
+      {
+        "ref": "Surah 37:7-10",
+        "transliteration": "illā man khaṭifa al-khaṭfata fa-atba'ahu shihābun thāqib",
+        "arabic": "إِلَّا مَنْ خَطِفَ الْخَطْفَةَ فَأَتْبَعَهُ شِهَابٌ ثَاقِبٌ",
+        "gloss": "\"except one who snatches a glimpse, and he is pursued by a piercing flame\""
+      },
+      {
+        "ref": "Surah 67:5",
+        "transliteration": "wa ja'alnāhā rujūman lish-shayāṭīn",
+        "arabic": "وَجَعَلْنَاهَا رُجُومًا لِّلشَّيَاطِينِ",
+        "gloss": "\"and We have made them missiles against the devils\""
+      }
+    ]
   },
   {
     "slug": "solomons-talking-ant-and-hoopoe",
@@ -1076,7 +1292,27 @@
     "ref": "Surah 2:29, 13:2, 41:12, 67:3, 71:15",
     "text": "The heavens are described as seven layers, raised \"without pillars that you can see,\" each containing its own order, with the lowest adorned by stars.",
     "note": "A popular modern apologetic reading treats \"without pillars you can see\" as hinting at invisible physical forces (like gravity) holding celestial bodies in place. Historians of religion more commonly read \"seven heavens\" as a widely shared cosmological model across the ancient Near East (also found in Babylonian and Jewish sources) describing physical layered domes, not a claim compatible with modern astrophysics, which doesn't describe the universe as seven discrete layers at all.",
-    "link": "https://quran.com/2/29"
+    "link": "https://quran.com/2/29",
+    "contested_wording": [
+      {
+        "ref": "Surah 13:2",
+        "transliteration": "Allāhu alladhī rafa'a as-samāwāti bi-ghayri 'amadin tarawnahā",
+        "arabic": "اللَّهُ الَّذِي رَفَعَ السَّمَاوَاتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا",
+        "gloss": "\"God, who raised the heavens without pillars that you can see\""
+      },
+      {
+        "ref": "Surah 67:3, 71:15",
+        "transliteration": "khalaqa sab'a samāwātin ṭibāqā",
+        "arabic": "خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا",
+        "gloss": "\"created seven heavens in layers\""
+      },
+      {
+        "ref": "Surah 2:29, 41:12",
+        "transliteration": "fa-sawwāhunna sab'a samāwāt",
+        "arabic": "فَسَوَّاهُنَّ سَبْعَ سَمَاوَاتٍ",
+        "gloss": "\"and fashioned them as seven heavens\""
+      }
+    ]
   },
   {
     "slug": "gog-and-magog-iron-wall",
@@ -1131,7 +1367,21 @@
     "ref": "Surah 2:178, 5:45",
     "text": "Establishes a law of retaliation (qisas) — a life for a life, an eye for an eye, a wound for a wound — while also stating that whoever forgoes retaliation as charity, it serves as expiation.",
     "note": "Widely read by classical and modern scholars alike as a *limiting* reform rather than a harsh innovation — pre-Islamic Arabian custom often involved disproportionate tribal revenge (killing multiple people, or someone of higher status than the original victim, in retaliation for one death), and this law caps retribution at exact proportional equivalence while actively encouraging forgiveness instead. Critics note that whatever its historical improvement over prior custom, the law still codifies literal corporal retaliation (an eye actually being removed) as a default legal option, not merely a metaphor.",
-    "link": "https://quran.com/2/178"
+    "link": "https://quran.com/2/178",
+    "contested_wording": [
+      {
+        "ref": "Surah 2:178",
+        "transliteration": "kutiba 'alaykumu al-qiṣāṣu fī al-qatlā",
+        "arabic": "كُتِبَ عَلَيْكُمُ الْقِصَاصُ فِي الْقَتْلَىٰ",
+        "gloss": "\"retaliation is prescribed for you in cases of murder\""
+      },
+      {
+        "ref": "Surah 5:45",
+        "transliteration": "an-nafsa bi-an-nafsi wa al-'ayna bi-al-'ayni",
+        "arabic": "النَّفْسَ بِالنَّفْسِ وَالْعَيْنَ بِالْعَيْنِ",
+        "gloss": "\"a life for a life, an eye for an eye\""
+      }
+    ]
   },
   {
     "slug": "smite-the-necks-in-battle",
@@ -1175,7 +1425,21 @@
     "ref": "Surah 2:65, 5:60, 7:166",
     "text": "Describes a group among the Children of Israel who violated the Sabbath as being told \"be apes, despised,\" and separately describes some as transformed into apes and pigs as a curse for disobedience.",
     "note": "Some modern commentators read this as describing moral or spiritual degradation (miskh, \"metamorphosis\") rather than literal physical transformation, and note the punished group is explicitly Sabbath-breakers, not Jews as a whole. Classical exegetes (Ibn Kathir, Ibn Abbas, and the historic majority reading) treat it as a literal historical transformation. Critics note that regardless of the literal/metaphorical question, the passage singles out a specific community for a uniquely degrading punishment among the Quran's disobedience narratives.",
-    "link": "https://quran.com/2/65"
+    "link": "https://quran.com/2/65",
+    "contested_wording": [
+      {
+        "ref": "Surah 2:65, 7:166",
+        "transliteration": "kūnū qiradatan khāsi'īn",
+        "arabic": "كُونُوا قِرَدَةً خَاسِئِينَ",
+        "gloss": "\"be apes, despised\""
+      },
+      {
+        "ref": "Surah 5:60",
+        "transliteration": "wa ja'ala minhumu al-qiradata wa al-khanāzīr",
+        "arabic": "وَجَعَلَ مِنْهُمُ الْقِرَدَةَ وَالْخَنَازِيرَ",
+        "gloss": "\"and made of them apes and pigs\""
+      }
+    ]
   },
   {
     "slug": "worst-of-creatures",
@@ -1209,5 +1473,69 @@
     "text": "Dhul-Qarnayn (\"the Two-Horned One\") travels to where the sun sets and rises, and builds an iron-and-copper wall against Gog and Magog — a narrative closely paralleling the pre-Islamic Syriac Alexander Legend, in which Alexander the Great does the same things in the same order, right down to the wall's construction materials.",
     "note": "Most Islamic and Western scholars identify Dhul-Qarnayn with Alexander the Great specifically because the parallels with the Syriac legend are too close and numerous to be coincidental — matching iconography (\"two horns\"), itinerary, and the Gog-and-Magog wall episode. The historical Alexander, however, was a documented pagan polytheist who styled himself the son of the god Zeus-Ammon and sought divine honors — starkly at odds with the pious monotheist believer depicted in the Quranic account. A minority of Muslim scholars reject the Alexander identification specifically because of this mismatch, some proposing alternative figures (Cyrus the Great, a pre-Islamic South Arabian king) instead, precisely to avoid attributing monotheistic piety to a historical pagan ruler.",
     "link": "https://quran.com/18/83"
+  },
+  {
+    "slug": "barrier-between-two-seas",
+    "title": "Does the Quran describe a scientific barrier between fresh and salt water?",
+    "category": "science_claims",
+    "category_label": "Modern \"Scientific Miracle\" Claims",
+    "color": "#1E8A8C",
+    "ref": "Surah 25:53, 55:19-20, 27:61",
+    "text": "Describes God releasing two bodies of water, one fresh and one salty, with a barrier and \"forbidding partition\" between them that they do not cross.",
+    "note": "A popular apologetic claim identifies this with the halocline effect at river-ocean estuaries, where density differences create a temporary boundary layer, framed as unknowable 7th-century knowledge. Critics raise two separate problems: first, the Arabic word used (bahr) means \"sea\" in classical usage, not \"river\" — the verse describes two seas meeting, not a river meeting an ocean, which doesn't match the estuary explanation apologists rely on; second, real estuary waters do eventually mix into brackish water rather than remaining permanently separated, which is at odds with the verse's language of a \"forbidding\" barrier that is never crossed.",
+    "link": "https://quran.com/25/53",
+    "contested_wording": [
+      {
+        "ref": "Surah 55:19-20",
+        "transliteration": "maraja al-baḥrayni yaltaqiyān, baynahumā barzakhun lā yabghiyān",
+        "arabic": "مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ بَيْنَهُمَا بَرْزَخٌ لَّا يَبْغِيَانِ",
+        "gloss": "\"He released the two seas, meeting; between them is a barrier they do not transgress\""
+      },
+      {
+        "ref": "Surah 25:53",
+        "transliteration": "hādhā 'adhbun furātun wa hādhā milḥun ujāj",
+        "arabic": "هَٰذَا عَذْبٌ فُرَاتٌ وَهَٰذَا مِلْحٌ أُجَاجٌ",
+        "gloss": "\"this one fresh and sweet, and this one salty and bitter\""
+      },
+      {
+        "ref": "Surah 27:61",
+        "transliteration": "wa ja'ala baynahumā ḥājizā",
+        "arabic": "وَجَعَلَ بَيْنَهُمَا حَاجِزًا",
+        "gloss": "\"and placed a barrier between them\""
+      }
+    ]
+  },
+  {
+    "slug": "deep-sea-darkness",
+    "title": "Does the Quran describe oceanographic internal waves and light attenuation in deep water?",
+    "category": "science_claims",
+    "category_label": "Modern \"Scientific Miracle\" Claims",
+    "color": "#1E8A8C",
+    "ref": "Surah 24:40",
+    "text": "Describes darkness in a deep sea, covered by wave upon wave, topped by clouds — layers of darkness so complete that a person could barely see their own hand.",
+    "note": "Apologists connect this to the real oceanographic facts that light fades to near-total darkness below roughly 200 meters, and that internal waves exist at density boundaries deep underwater. The verse's own text undercuts the literal-scientific reading, though: it opens with an explicit simile marker (\"or [the state of the disbelievers] is like...\") introducing a metaphor for the spiritual darkness of unbelief, not a standalone description of ocean physics — a point classical tafsir treats as the verse's plain, primary meaning.",
+    "link": "https://quran.com/24/40"
+  },
+  {
+    "slug": "bee-navigation-and-gender",
+    "title": "Does the Quran's grammar reveal that female bees do the foraging?",
+    "category": "science_claims",
+    "category_label": "Modern \"Scientific Miracle\" Claims",
+    "color": "#1E8A8C",
+    "ref": "Surah 16:68-69",
+    "text": "Describes God inspiring \"the bee\" to take dwellings in mountains, trees, and structures, then to eat from fruits and follow the ways laid down for it, using a feminine verb form.",
+    "note": "Apologists point to the feminine grammatical verb form as evidence the text specifically identifies female worker bees as the foragers and builders — a real biological fact, since only female bees leave the hive to forage. Linguists counter that Arabic uses feminine verb forms for collective/species nouns (ism al-jins) regardless of the actual sex of individuals involved, pointing to parallel usage elsewhere in the same surah for birds (16:79) and for \"the Romans\" (30:2, clearly not referring to female Romans specifically) — meaning the grammar doesn't actually encode a claim about bee sex at all.",
+    "link": "https://quran.com/16/68"
+  },
+  {
+    "slug": "fingerprint-uniqueness-claim",
+    "title": "Does the Quran anticipate the forensic uniqueness of fingerprints?",
+    "category": "science_claims",
+    "category_label": "Modern \"Scientific Miracle\" Claims",
+    "color": "#1E8A8C",
+    "ref": "Surah 75:3-4",
+    "text": "Asks whether man thinks his bones will not be reassembled after death, answering that God is able to perfectly restore even the very tips of his fingers.",
+    "note": "A popular modern claim reads \"fingertips\" as a specific reference to the forensic uniqueness of fingerprints, framed as unknowable 7th-century knowledge. The scientific understanding that every individual's fingerprints are unique wasn't established until Sir Francis Galton's work in the late 19th century, over 1,200 years after this text — and the verse's own context is about God's power to perfectly resurrect and reassemble the body in complete detail, using fingertips as an example of fine anatomical precision, not a claim about individual identification or forensics specifically.",
+    "link": "https://quran.com/75/3"
   }
 ]
