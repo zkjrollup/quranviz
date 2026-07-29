@@ -312,6 +312,8 @@ let colorMode = 'crimson';
 let activeCluster = 'all';
 let lastTappedArc = null;
 
+
+// Arc path: SVG arc command, with radius = half the horizontal distance
 function arcPath(x1, x2){
   const y0 = H - 10;
   const dx = Math.abs(x2 - x1);
@@ -405,7 +407,8 @@ function renderWaveform(){
     bar.className = 'wave-bar';
     bar.style.height = (len / max * 100) + '%';
     bar.style.flex = 'none';
-    bar.style.width = (len / TOTAL * 100 * .8) + '%';
+    bar.style.width = (len / TOTAL * 100) + '%';
+    bar.style.borderRight = '1px solid var(--bg)';
     bar.style.marginRight = '1px';
     bar.style.cursor = 'pointer';
     bar.dataset.surah = surahNum;

@@ -5,16 +5,16 @@
     "category": "absurd",
     "category_label": "Scientific & Historical Absurdities",
     "color": "#3F8C4A",
-    "ref": "Surah 3:59, 15:26, 19:67, 23:12, 55:14, 96:2",
-    "text": "Man is described as created from clay, from dust, from nothing, from a sperm-drop, from a clot, and from clay like pottery, in six different passages.",
-    "note": "Often read as describing different stages of a single creation process rather than competing accounts — though critics argue the wording doesn't always support that reading cleanly.",
+    "ref": "at least 8 distinct materials across 24 verses (see full list below)",
+    "text": "Man's creation is described using at least eight distinct materials or starting points across roughly two dozen verses: water, dust, clay (in several distinct phrasings — sounding clay, sticky clay, clay like pottery, mud), a fluid or drop of seed, a clot, and simply \"nothing.\"",
+    "note": "The sheer number of distinct phrasings (see the full list below) is itself the point of contention: is this a single process described from different angles across a long ministry — dust as origin, water/fluid as the reproductive stage, clay as a poetic composite, culminating in the clot/lump stages of embryonic development — or is it evidence of independent, loosely-reconciled sayings on the same question, repeated across many contexts without ever being harmonized into one consistent account? Traditional tafsir generally reads these as sequential stages of one unified process (dust → clay → fluid → clot → lump), while critics note that several verses (e.g. \"from water\" alone, or \"from nothing\") don't explicitly fit that sequence when read on their own terms.",
     "link": "https://quran.com/15/26",
     "cluster_id": "creation-material",
     "arc_verses": [
       [
-        15,
-        26,
-        "clay"
+        25,
+        54,
+        "water"
       ],
       [
         3,
@@ -22,63 +22,177 @@
         "dust"
       ],
       [
+        15,
+        26,
+        "clay"
+      ],
+      [
+        16,
+        4,
+        "a drop of fluid"
+      ],
+      [
         19,
         67,
         "nothing"
       ],
       [
-        23,
+        7,
         12,
-        "sperm-drop"
-      ],
-      [
-        96,
-        2,
-        "a clot"
-      ],
-      [
-        55,
-        14,
-        "clay like pottery"
+        "mud"
       ]
     ],
     "arc_color": "#FF3B54",
     "contested_wording": [
       {
+        "ref": "Surah 25:54",
+        "transliteration": "wa huwa alladhī khalaqa mina al-mā'i basharā",
+        "arabic": "وَهُوَ الَّذِي خَلَقَ مِنَ الْمَاءِ بَشَرًا",
+        "gloss": "\"and it is He who created a human being from water\""
+      },
+      {
+        "ref": "Surah 24:45",
+        "transliteration": "wallāhu khalaqa kulla dābbatin min mā'",
+        "arabic": "وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ",
+        "gloss": "\"and God created every living creature from water\""
+      },
+      {
+        "ref": "Surah 96:1-2",
+        "transliteration": "khalaqa al-insāna min 'alaq",
+        "arabic": "خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ",
+        "gloss": "\"created man from a clot\""
+      },
+      {
+        "ref": "Surah 6:2",
+        "transliteration": "huwa alladhī khalaqakum min ṭīn",
+        "arabic": "هُوَ الَّذِي خَلَقَكُم مِّن طِينٍ",
+        "gloss": "\"He it is who created you from clay\""
+      },
+      {
         "ref": "Surah 15:26",
         "transliteration": "min ṣalṣālin min ḥama'in masnūn",
         "arabic": "مِن صَلْصَالٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
-        "gloss": "\"from sounding clay, from black mud altered\""
+        "gloss": "\"from sounding clay, from altered black mud\""
       },
       {
-        "ref": "Surah 3:59",
-        "transliteration": "khalaqahu min turāb",
-        "arabic": "خَلَقَهُ مِن تُرَابٍ",
-        "gloss": "\"He created him from dust\" (said of Adam, in a comparison to Jesus)"
+        "ref": "Surah 17:61",
+        "transliteration": "a-asjudu li-man khalaqta ṭīnā",
+        "arabic": "أَأَسْجُدُ لِمَنْ خَلَقْتَ طِينًا",
+        "gloss": "\"shall I prostrate to one You created from clay?\" — Iblis refusing to bow to Adam"
       },
       {
-        "ref": "Surah 19:67",
-        "transliteration": "khalaqnāhu min qablu wa lam yaku shay'an",
-        "arabic": "خَلَقْنَاهُ مِن قَبْلُ وَلَمْ يَكُ شَيْئًا",
-        "gloss": "\"We created him before, when he was nothing\""
+        "ref": "Surah 32:7",
+        "transliteration": "wa bada'a khalqa al-insāni min ṭīn",
+        "arabic": "وَبَدَأَ خَلْقَ الْإِنسَانِ مِن طِينٍ",
+        "gloss": "\"and He began the creation of man from clay\""
       },
       {
-        "ref": "Surah 23:12",
-        "transliteration": "min sulālatin min ṭīn",
-        "arabic": "مِن سُلَالَةٍ مِّن طِينٍ",
-        "gloss": "\"from an extract of clay\" — the next verse (23:13) continues with nuṭfah, \"a drop\""
-      },
-      {
-        "ref": "Surah 96:2",
-        "transliteration": "min 'alaq",
-        "arabic": "مِنْ عَلَقٍ",
-        "gloss": "\"from a clinging clot\""
+        "ref": "Surah 37:11",
+        "transliteration": "innā khalaqnāhum min ṭīnin lāzib",
+        "arabic": "إِنَّا خَلَقْنَاهُم مِّن طِينٍ لَّازِبٍ",
+        "gloss": "\"indeed We created them from sticky clay\""
       },
       {
         "ref": "Surah 55:14",
         "transliteration": "min ṣalṣālin ka-l-fakhkhār",
         "arabic": "مِن صَلْصَالٍ كَالْفَخَّارِ",
         "gloss": "\"from clay like [that of] pottery\""
+      },
+      {
+        "ref": "Surah 7:12",
+        "transliteration": "khalaqtanī min nārin wa khalaqtahu min ṭīn",
+        "arabic": "خَلَقْتَنِي مِن نَّارٍ وَخَلَقْتَهُ مِن طِينٍ",
+        "gloss": "\"You created me from fire, and created him from mud\" — Iblis comparing himself to Adam"
+      },
+      {
+        "ref": "Surah 38:71",
+        "transliteration": "innī khāliqun basharan min ṭīn",
+        "arabic": "إِنِّي خَالِقٌ بَشَرًا مِّن طِينٍ",
+        "gloss": "\"I am going to create a mortal out of mire\""
+      },
+      {
+        "ref": "Surah 23:12",
+        "transliteration": "min sulālatin min ṭīn",
+        "arabic": "مِن سُلَالَةٍ مِّن طِينٍ",
+        "gloss": "\"from an extract [product] of wet clay/earth\""
+      },
+      {
+        "ref": "Surah 3:59",
+        "transliteration": "khalaqahu min turāb",
+        "arabic": "خَلَقَهُ مِن تُرَابٍ",
+        "gloss": "\"He created him from dust\""
+      },
+      {
+        "ref": "Surah 30:20",
+        "transliteration": "khalaqakum min turābin thumma idhā antum basharun tantashirūn",
+        "arabic": "خَلَقَكُم مِّن تُرَابٍ ثُمَّ إِذَا أَنتُم بَشَرٌ تَنتَشِرُونَ",
+        "gloss": "\"He created you from dust, then behold, you are human beings dispersing\""
+      },
+      {
+        "ref": "Surah 35:11",
+        "transliteration": "khalaqakum min turāb",
+        "arabic": "خَلَقَكُم مِّن تُرَابٍ",
+        "gloss": "\"created you from dust\""
+      },
+      {
+        "ref": "Surah 77:20",
+        "transliteration": "a-lam nakhluqkum min mā'in mahīn",
+        "arabic": "أَلَمْ نَخْلُقكُّم مِّن مَّاءٍ مَّهِينٍ",
+        "gloss": "\"did We not create you from a despised fluid?\""
+      },
+      {
+        "ref": "Surah 16:4",
+        "transliteration": "khalaqa al-insāna min nuṭfah",
+        "arabic": "خَلَقَ الْإِنسَانَ مِن نُّطْفَةٍ",
+        "gloss": "\"He created man from a drop of fluid\""
+      },
+      {
+        "ref": "Surah 76:2",
+        "transliteration": "innā khalaqnā al-insāna min nuṭfatin amshāj",
+        "arabic": "إِنَّا خَلَقْنَا الْإِنسَانَ مِن نُّطْفَةٍ أَمْشَاجٍ",
+        "gloss": "\"indeed We created man from a mixed/thickened drop\""
+      },
+      {
+        "ref": "Surah 86:5-7",
+        "transliteration": "khuliqa min mā'in dāfiq",
+        "arabic": "خُلِقَ مِن مَّاءٍ دَافِقٍ",
+        "gloss": "\"created from a gushing fluid, issuing from between the loins and ribs\""
+      },
+      {
+        "ref": "Surah 36:77",
+        "transliteration": "innā khalaqnāhu min nuṭfah",
+        "arabic": "إِنَّا خَلَقْنَاهُ مِن نُّطْفَةٍ",
+        "gloss": "\"indeed We created him from a drop of seed\""
+      },
+      {
+        "ref": "Surah 80:18-19",
+        "transliteration": "min ayyi shay'in khalaqah, min nuṭfatin khalaqahu",
+        "arabic": "مِنْ أَيِّ شَيْءٍ خَلَقَهُ مِن نُّطْفَةٍ خَلَقَهُ",
+        "gloss": "\"from what thing did He create him? From a drop He created him\""
+      },
+      {
+        "ref": "Surah 18:37",
+        "transliteration": "khalaqaka min turābin thumma min nuṭfah",
+        "arabic": "خَلَقَكَ مِن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ",
+        "gloss": "\"created you from dust, then from a drop\""
+      },
+      {
+        "ref": "Surah 40:67",
+        "transliteration": "khalaqakum min turābin thumma min nuṭfatin thumma min 'alaqah",
+        "arabic": "خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ",
+        "gloss": "\"created you from dust, then a drop, then a clot\""
+      },
+      {
+        "ref": "Surah 22:5",
+        "transliteration": "min turābin thumma min nuṭfatin thumma min 'alaqatin thumma min muḍghah",
+        "arabic": "مِن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ",
+        "gloss": "\"from dust, then a drop, then a clot, then a lump — shapely and unshapely\""
+      },
+      {
+        "ref": "Surah 19:67",
+        "transliteration": "khalaqnāhu min qablu wa lam yaku shay'an",
+        "arabic": "خَلَقْنَاهُ مِن قَبْلُ وَلَمْ يَكُ شَيْئًا",
+        "gloss": "\"We created him before, when he was nothing\""
       }
     ]
   },
