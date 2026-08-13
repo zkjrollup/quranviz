@@ -306,7 +306,10 @@ const W = 1400, H = 560;
 svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
 svg.setAttribute('preserveAspectRatio', 'none');
 
-function xScale(p){ return (p / TOTAL) * W; }
+function xScale(p){
+  const K = W / Math.log(TOTAL + 1);
+  return Math.log(p + 2) * K;
+}
 
 let colorMode = 'crimson';
 let activeCluster = 'all';
@@ -409,7 +412,6 @@ function renderWaveform(){
     bar.style.flex = 'none';
     bar.style.width = (len / TOTAL * 100) + '%';
     bar.style.borderRight = '1px solid var(--bg)';
-    bar.style.marginRight = '1px';
     bar.style.cursor = 'pointer';
     bar.dataset.surah = surahNum;
 
