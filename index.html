@@ -104,7 +104,7 @@
   .arc.emphasized{ stroke-width:2; opacity:0.85; filter:drop-shadow(0 0 3px currentColor); }
 
   .waveform{ width:100%; height:120px; display:flex; align-items:flex-start; gap:1px; padding:0 0; }
-  .wave-bar{ flex:1; background:linear-gradient(0deg, var(--blue), rgba(62,124,224,0.15)); min-width:1px; }
+  .wave-bar{ flex:1; background:linear-gradient(0deg, var(--blue), rgba(62,124,224,0.15)); min-width:1px; box-sizing: border-box;}
   .wave-bar.active{ background:linear-gradient(180deg, var(--crimson), rgba(226,58,78,0.2)); }
 
   .legend{
@@ -306,10 +306,7 @@ const W = 1400, H = 560;
 svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
 svg.setAttribute('preserveAspectRatio', 'none');
 
-function xScale(p){
-  const K = W / Math.log(TOTAL + 1);
-  return Math.log(p + 2) * K;
-}
+function xScale(p){ return (p / TOTAL) * W; }
 
 let colorMode = 'crimson';
 let activeCluster = 'all';
@@ -412,6 +409,7 @@ function renderWaveform(){
     bar.style.flex = 'none';
     bar.style.width = (len / TOTAL * 100) + '%';
     bar.style.borderRight = '1px solid var(--bg)';
+    
     bar.style.cursor = 'pointer';
     bar.dataset.surah = surahNum;
 
