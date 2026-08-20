@@ -152,9 +152,10 @@
   .videos-section { max-width:1400px; margin:0 auto; padding:3.2rem 2rem 0.5rem;}
   .videos-header { display:flex; align-items:center; gap:0.65rem; margin-bottom:1.6rem; }
   .videos-header h2{ font-size:1.55rem; font-weight:700; color:#fff; margin:0; }
+  .videos-note{ font-size:0.82rem; color:var(--ink-soft); margin:0.5rem 0 1.6rem; max-width:640px; line-height:1.5;}
   .video-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.3rem;
   }
-  .video-card{background:rgba(255,255,255,0.045); border:1px solid var(--line); border-radius:10px; overflow:hidden;
+  .video-card{background:rgba(255,255,255,0.045); border:1px solid var(--line); border-radius:10px; overflow:hidden; max-width:480px;
   }
   .video-card .video-frame-wrap{ position:relative; width:100%; padding-top:56.25%;
   }
