@@ -156,6 +156,17 @@
     color:var(--cat-color, var(--crimson)); text-decoration:underline; text-underline-offset:3px;
     font-size:0.92rem; font-weight:500;
   }
+  .videos-section { max-width:1400px; margin:0 auto; padding:3.2rem 2rem 0.5rem;}
+  .videos-header { display:flex; align-items:center; gap:0.65rem; margin-bottom:1.6rem; }
+  .videos-header h2{ font-size:1.55rem; font-weight:700; color:#fff; margin:0; }
+  .video-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.3rem;
+  }
+  .video-card{background:rgba(255,255,255,0,.045); border:1px solid var(--line); border-radius:10px; overflow:hidden;
+  }
+  .video-card iframe {position:relative; width:100%; padding-top:56.25%;
+  }
+  .video-card .video-title{padding:0.9rem 1rem; font-size:0.95rem; font-weight:500; color:var(--ink);
+  }
   .quote-title-link{ color:var(--ink); text-decoration:none; }
   .quote-title-link:hover{ text-decoration:underline; text-decoration-color:var(--cat-color); }
   .quote-ref{ display:flex; gap:0.5rem; align-items:center; justify-content:flex-end; flex-wrap:wrap; }
@@ -181,7 +192,7 @@
   svg#arcCanvas{
     order: 3;
   }
-  .waveform, .legend, #categorySections, footer.note{
+  .waveform, .legend, #categorySections, .videos-section, footer.note{
     order: 4;
   }
 }
@@ -237,6 +248,14 @@
 
   <div id="categorySections"></div>
 
+  <div class="videos-section">
+    <div class="videos-header">
+      <h2>Interesting Videos</h2>
+    </div>
+    <div class="video-grid" id="videoGrid"></div>
+    </div>
+  
+
   <footer class="note">
     Each arc joins two passages raised together in critical commentary (Skeptic's Annotated Quran, WikiIslam, CARM, and academic sources on Quranic exegesis). Position along the axis follows surah/ayah order, front (Al-Fatihah) to back (An-Nas). Verse text is paraphrased in the linked full list, not quoted — see the reader link for the full passage in a translation of your choice.
   </footer>
@@ -246,6 +265,28 @@
 // Standard ayah counts per surah, 1..114
 const SURAH_LENGTHS = [7,286,200,176,120,165,206,75,129,109,123,111,43,52,99,128,111,110,98,135,112,78,118,64,77,227,93,88,69,60,34,30,73,54,45,83,182,88,75,85,54,53,89,59,37,35,38,29,18,45,60,49,62,55,78,96,29,22,24,13,14,11,11,18,12,12,30,52,52,44,28,28,20,56,40,31,50,40,46,42,29,19,36,25,22,17,19,26,30,20,15,21,11,8,8,19,5,8,8,11,11,8,3,9,5,4,7,3,6,3,5,4,5,6];
 
+const VIDEOS = [
+  { title: "Video title here", youtubeID: "rOUrnJ2Wk_0" },
+  ]
+  
+  function renderVideos(){
+    const grid = document.getElementById('videoGrid');
+    grid.innerHTML = '';
+    VIDEOS.forEach(v => {
+      const card = document.createElement('div');
+      card.className = 'video-card';
+      card.innerHTML = `
+      <div class="video-frame-wrap">
+        <iframe src="https://www.youtube.com/embed/${v.youtubeId}"
+        title="${v.title}"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+        </div>
+        <div class="video-title">${v.title}</div>
+        `;
+      grid.appendChild(card);
+    });
+  }
 // build once, alongside SURAH_LENGTHS
 const SURAH_STARTS = [];
 (() => {
@@ -556,6 +597,7 @@ function init(){
   renderArcs();
   window.addEventListener('resize', renderArcs);
   renderCategorySections();
+  renderVideos();
 }
 
 // ---------------------------------------------------------------
