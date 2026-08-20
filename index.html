@@ -104,8 +104,10 @@
   .arc.emphasized{ stroke-width:2; opacity:0.85; filter:drop-shadow(0 0 3px currentColor); }
 
   .waveform{ width:100%; height:120px; display:flex; align-items:flex-start; gap:1px; padding:0 0; }
-  .wave-bar{ flex:1; background:linear-gradient(0deg, var(--blue), rgba(62,124,224,0.15)); min-width:1px; box-sizing: border-box; border-right: 1px solid var(--bg);}
-  .wave-bar.active{ background:linear-gradient(180deg, var(--crimson), rgba(226,58,78,0.2)); }
+  .wave-bar{ flex:1; position:relative; height:100%; min-width:1px; cursor:pointer;}
+  .wave-bar::before{ content:''; position:absolute; left:-3px; right:-3px; top:0; bottom:0; }
+  .wave-bar .fill{ position:absolute; left:0; right:0; top:0; background:linear-gradient(180deg, var(--blue), rgba(226,58,78,0.2)); box-sizing:border-box; border-right:1px solid var(--bg); }
+  .wave-bar.active{ background:linear-gradient(180deg, var(--blue), rgba(226,58,78,0.2)); }
 
   .legend{
     display:flex; justify-content:center; gap:1.4rem; margin-top:1rem; flex-wrap:wrap; padding:0 1rem;
@@ -422,11 +424,12 @@ function renderWaveform(){
     const surahNum = i + 1;
     const bar = document.createElement('div');
     bar.className = 'wave-bar';
-    bar.style.height = (len / max * 100) + '%';
-    bar.style.borderRight = '1px solid var(--bg)';
-    
-    bar.style.cursor = 'pointer';
     bar.dataset.surah = surahNum;
+
+    const fill = document.createElement('div');
+    fill.className = 'fill';
+    fill.style.height = (len / max * 100) + '%';
+    bar.appendChild(fill);
 
   bar.addEventListener('mouseenter', () => {
   const panel = document.getElementById('tooltipPanel');
@@ -451,7 +454,7 @@ function highlightWaveform(clusterId){
   if(clusterId === 'all'){
     bars.forEach(b => {
       b.classList.remove('active');
-      b.style.background = '';
+      b.querySelector('.fill').style.background = '';
     });
     return;
   }
