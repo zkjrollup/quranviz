@@ -205,7 +205,7 @@ function renderWaveform(){
 
     const fill = document.createElement('div');
     fill.className = 'fill';
-    fill.style.height = (len / max * 100) + '%';
+    fill.style.height = (Math.sqrt(len) / Math.sqrt(max) * 100) + '%';
     bar.appendChild(fill);
 
   bar.addEventListener('mouseenter', () => {
