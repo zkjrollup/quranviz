@@ -743,13 +743,13 @@
   },
   {
     "slug": "did-noahs-son-drown",
-    "title": "Did Noah's son drown, or was he saved?",
+    "title": "Did Noah's whole family survive the flood, or only some of them?",
     "category": "contradiction",
     "category_label": "Contradictions",
     "color": "#6E00B3",
-    "ref": "Surah 11:42-43 vs. 21:76",
-    "text": "One passage says Noah and his family were delivered; another describes his son refusing to board and ending up among the drowned.",
-    "note": "Commentators dispute whether \"family\" in 21:76 was meant to include the disbelieving son at all.",
+    "ref": "Surah 11:42-43, 66:10 vs 21:76",
+    "text": "One passage says Noah and his family were delivered from the flood.  But two named members of that family are explicitly excluded elsewhere: his son, who refused to board and drowned, and his wife, named directly as a disbeliever who was not saved.  This ends up using a term read as fully comprehensive (his family) covering barely half of his immediate household.",
+    "note": "Commentators dispute whether \"family\" in 21:76 was meant to include the disbelieving son at all.  But that reading has to do double duty here because it needs to simultaneously exclude both the son (11:42-43) and the wife (66:10), which is a bigger carve-out from 'family' than the single-exception reading usually offered.",
     "link": "https://quran.com/21/76",
     "cluster_id": "noahs-son",
     "arc_verses": [
@@ -767,6 +767,11 @@
         11,
         43,
         "\"among the drowned\""
+      ],
+      [
+        66,
+        10,
+        "wife is a disbeliever"
       ]
     ],
     "arc_color": "#1DE9C4",
@@ -788,6 +793,12 @@
         "transliteration": "fa-kāna mina al-mughraqīn",
         "arabic": "فَكَانَ مِنَ الْمُغْرَقِينَ",
         "gloss": "\"and he was among the drowned\""
+      },
+      {
+        "ref": "Surah 66:10",
+         "transliteration": "wa qīla udkhulā n-nāra ma'a d-dākhilīn",
+        "arabic": "وَقِيلَ ادْخُلَا النَّارَ مَعَ الدَّاخِلِينَ",
+        "gloss": "\"and it was said, 'Enter the Fire with those who enter'\" — the wife is explicitly named as a disbeliever and condemned to hell"
       }
     ]
   },

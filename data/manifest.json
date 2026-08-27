@@ -79,14 +79,14 @@
   },
   {
     "slug": "did-noahs-son-drown",
-    "title": "Did Noah's son drown, or was he saved?",
+    "title": "Did Noah's whole family survive the flood, or only some of them?",
     "category": "contradiction",
     "url": "pages/did-noahs-son-drown.html"
   },
   {
     "slug": "who-married-zayds-wife",
-    "title": "Why does Muhammad marry his adopted son's former wife right after a verse limits adoption?",
-    "category": "contradiction",
+    "title": "Was the revelation permitting Muhammad's marriage to Zaynab genuine, or self-serving?",
+    "category": "textual_history",
     "url": "pages/who-married-zayds-wife.html"
   },
   {
@@ -274,5 +274,119 @@
     "title": "Does the Quran treat magic and witchcraft as real, effective forces?",
     "category": "absurd",
     "url": "pages/witchcraft-and-knots.html"
+  },
+  {
+    "slug": "shooting-stars-as-missiles",
+    "title": "Are shooting stars missiles thrown at eavesdropping devils?",
+    "category": "absurd",
+    "url": "pages/shooting-stars-as-missiles.html"
+  },
+  {
+    "slug": "solomons-talking-ant-and-hoopoe",
+    "title": "Did Solomon really understand the speech of ants and birds?",
+    "category": "absurd",
+    "url": "pages/solomons-talking-ant-and-hoopoe.html"
+  },
+  {
+    "slug": "seven-heavens-sky-without-pillars",
+    "title": "Are there seven physical heavens held up without visible pillars?",
+    "category": "absurd",
+    "url": "pages/seven-heavens-sky-without-pillars.html"
+  },
+  {
+    "slug": "gog-and-magog-iron-wall",
+    "title": "Did Dhul-Qarnayn really build a wall of iron and molten copper to contain Gog and Magog?",
+    "category": "absurd",
+    "url": "pages/gog-and-magog-iron-wall.html"
+  },
+  {
+    "slug": "queen-of-shebas-teleported-throne",
+    "title": "Was the Queen of Sheba's throne teleported instantly to Solomon?",
+    "category": "absurd",
+    "url": "pages/queen-of-shebas-teleported-throne.html"
+  },
+  {
+    "slug": "amputation-for-theft",
+    "title": "Does the Quran require amputating a thief's hand?",
+    "category": "cruel",
+    "url": "pages/amputation-for-theft.html"
+  },
+  {
+    "slug": "flogging-for-fornication",
+    "title": "Does the Quran instruct showing no pity while flogging unmarried people for sex?",
+    "category": "cruel",
+    "url": "pages/flogging-for-fornication.html"
+  },
+  {
+    "slug": "eye-for-an-eye-retaliation",
+    "title": "Does the Quran command \"an eye for an eye\" retaliation?",
+    "category": "cruel",
+    "url": "pages/eye-for-an-eye-retaliation.html"
+  },
+  {
+    "slug": "smite-the-necks-in-battle",
+    "title": "What does \"smite the necks\" of unbelievers in battle actually instruct?",
+    "category": "cruel",
+    "url": "pages/smite-the-necks-in-battle.html"
+  },
+  {
+    "slug": "skins-renewed-in-hellfire",
+    "title": "Does the Quran describe skin being regrown specifically so torment can continue?",
+    "category": "cruel",
+    "url": "pages/skins-renewed-in-hellfire.html"
+  },
+  {
+    "slug": "family-loyalty-vs-faith",
+    "title": "Does the Quran instruct believers not to ally with their own fathers and brothers?",
+    "category": "intol",
+    "url": "pages/family-loyalty-vs-faith.html"
+  },
+  {
+    "slug": "apes-and-pigs-transformation",
+    "title": "Does the Quran describe people being transformed into apes and pigs?",
+    "category": "intol",
+    "url": "pages/apes-and-pigs-transformation.html"
+  },
+  {
+    "slug": "worst-of-creatures",
+    "title": "Does the Quran call disbelievers \"the worst of creatures\"?",
+    "category": "intol",
+    "url": "pages/worst-of-creatures.html"
+  },
+  {
+    "slug": "no-intimates-outside-your-own",
+    "title": "Does the Quran warn against close friendship with outsiders?",
+    "category": "intol",
+    "url": "pages/no-intimates-outside-your-own.html"
+  },
+  {
+    "slug": "dhul-qarnayn-as-alexander",
+    "title": "Was Dhul-Qarnayn the pagan king Alexander the Great, recast as a monotheist?",
+    "category": "anachronism",
+    "url": "pages/dhul-qarnayn-as-alexander.html"
+  },
+  {
+    "slug": "barrier-between-two-seas",
+    "title": "Does the Quran describe a scientific barrier between fresh and salt water?",
+    "category": "science_claims",
+    "url": "pages/barrier-between-two-seas.html"
+  },
+  {
+    "slug": "deep-sea-darkness",
+    "title": "Does the Quran describe oceanographic internal waves and light attenuation in deep water?",
+    "category": "science_claims",
+    "url": "pages/deep-sea-darkness.html"
+  },
+  {
+    "slug": "bee-navigation-and-gender",
+    "title": "Does the Quran's grammar reveal that female bees do the foraging?",
+    "category": "science_claims",
+    "url": "pages/bee-navigation-and-gender.html"
+  },
+  {
+    "slug": "fingerprint-uniqueness-claim",
+    "title": "Does the Quran anticipate the forensic uniqueness of fingerprints?",
+    "category": "science_claims",
+    "url": "pages/fingerprint-uniqueness-claim.html"
   }
 ]
