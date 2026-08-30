@@ -258,6 +258,57 @@
     ]
   },
   {
+    "slug": "when-was-satan-cast-out",
+    "title": "Was Satan cast out before or after tempting Adam?",
+    "category": "contradiction",
+    "category_label": "Contradictions",
+    "color": "#85E146",
+    "ref": "Surah 15:34-35, 7:19-20 vs 2:36",
+    "text": "Before the garden narrative begins, Iblis is told to leave and is cursed the moment he refuses to bow to Adam.  Yet Adam is then placed in the Garden and successfully tempted by that same, already-expelled Iblis.  A later verse describes Iblis, Adam and Eve all being sent down together as a signle joint event, after the temptation.",
+    "note": "This isn't a modern objection — classical commentators grapple with it directly. Ibn Kathir's tafsir on 2:36 asks outright how an already-banished Iblis could still access the Garden, and cites several competing explanations from earlier scholars: that he snuck in disguised inside a serpent (a detail borrowed from the Torah, not stated in the Quran itself), that he tempted Adam 'on his way out,' or that he tempted him from a distance without needing to physically enter. None of these appear in the Quran's own text. These competing explanations don't agree with each other, which suggests the sequence genuinely isn't settled by the verses alone. A minority reading, offered by the Bayan-ul-Quran commentary, argues 'get out of it' refers to Iblis abandoning a prideful state rather than leaving a physical place — but this requires reading a verb of physical exit ('ikhruj') and a term for physical banishment ('rajim,' one who is stoned/driven away) in a non-literal sense the immediate text doesn't clearly signal on its own.",
+    "link": "https://quran.com/2/36",
+    "cluster_id": "satans-expulsion",
+    "arc_verses": [
+      [
+        15,
+        34,
+        "Iblis expelled immediately"
+      ],
+      [
+        7,
+        19,
+        "Satan whispers to tempt Adam in the Garden"
+      ],
+      [
+        2,
+        36,
+        "all sent down together"
+      ]
+    ],
+    "arc_color": "#85E146",
+    "contested_wording": [
+      {
+         "ref": "Surah 15:34",
+        "transliteration": "qāla fa-khruj minhā fa-innaka rajīm",
+        "arabic": "قَالَ فَاخْرُجْ مِنْهَا فَإِنَّكَ رَجِيمٌ",
+        "gloss": "\"[Allah] said, 'Then get out of it, for indeed, you are expelled'\""
+      },
+      {
+        "ref": "Surah 7:20",
+        "transliteration": "fa-waswasa lahumā ash-shayṭānu",
+        "arabic": "فَوَسْوَسَ لَهُمَا الشَّيْطَانُ",
+        "gloss": "\"but Satan whispered to the two of them\""
+      },
+      {
+        "ref": "Surah 2:36",
+        "transliteration": "qulnā ihbiṭū ba'ḍukum li-ba'ḍin 'aduww",
+        "arabic": "قُلْنَا اهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ",
+        "gloss": "\"We said, 'Go down, [all of you], as enemies to one another'\""
+      }
+    ]
+
+  },
+  {
     "slug": "salvation-of-others",
     "title": "Can Jews and Christians be saved without converting to Islam?",
     "category": "contradiction",
@@ -1179,9 +1230,56 @@
     ]
   },
   {
-
+    "slug": "inheritance-shares-exceed-100",
+    "title": "Do the Quran's inheritance shares add up to more than 100%?",
+    "category": "contradiction",
+    "category_label": "Contradictions",
+    "color": "#6E00B3",
+    "ref": "Surah 4:11-12, 4:176",
+    "text":"Consider a woman who dies.  She leaves behind a husband, her mother, and two sisters - but no children.  The Quran assigns each of them a fixed share: the husband gets half the estate, the mother gets a sixth, and the two sisters split two-thirds between them.  Added together, those shares alone already total 4/3 of the estates.  That's 33% more than the whole thing, before anyone else is even accounted for.",
+    "context": "The Quran's inheritance rules are detailed, and classical jurists took this specific problem seriously rather than ignoring it. The 'awl' solution; proportionally scaling down every heir's share so the total equals the full estate - is the traditional fix, credited to Caliph Umar. But it's worth being precise about what that fix is: a correction applied on top of the text, not a resolution found within it. That sits in tension with verses describing the religion as perfected and complete (5:3) and the Book as a clarification 'for all things' (16:89) — if a specific, numerically stated rule doesn't work as written and needs an external adjustment to function, that's a harder case for those claims than an ambiguous or open-ended verse would be. Defenders respond that scholarly elaboration (ijtihad) was always understood as part of how revelation gets applied, not evidence against its completeness.",
+    "link": "https://quran.com/4/11",
+    "cluster_id": "inheritance_awl",
+    "arc_verses":[
+      [
+        4,
+        12,
+        "husband's share: 1/2 (no children)"
+      ],
+      [
+        4,
+        11,
+        "mother's share: 1/6 (with siblings)"
+      ],
+      [
+        4,
+        176,
+        "two sisters' share: 2/3"
+      ]
+    ],
+    "arc_color":"#E155E6",
+    "contested_wording": [
+      {
+        "ref": "Surah 4:12",
+        "transliteration": "wa lakum nisfū mā taraka azwājukum in lam yakun lahunna walad",
+        "arabic": "وَلَكُمْ نِصْفُ مَا تَرَكَ أَزْوَاجُكُمْ إِن لَّمْ يَكُن لَّهُنَّ وَلَدٌ",
+        "gloss": "\"and for you is half of what your wives leave, if they have no child\""
+      },
+      {
+        "ref": "Surah 4:11",
+        "transliteration": "fa-in kāna lahu ikhwatun fa-li-ummihi al-sudus",
+        "arabic": "فَإِن كَانَ لَهُ إِخْوَةٌ فَلِأُمِّهِ السُّدُسُ",
+        "gloss": "\"if he has siblings, then for his mother is a sixth\""
+      },
+      {
+        "ref": "Surah 4:176",
+        "transliteration": "fa-in kānatā ithnatayni fa-lahumā al-thuluthāni mimmā taraka",
+        "arabic": "فَإِن كَانَتَا اثْنَتَيْنِ فَلَهُمَا الثُّلُثَانِ مِمَّا تَرَكَ",
+        "gloss": "\"if they are two sisters, then for them is two-thirds of what he leaves\""
+      }
+    ]
   },
-  {
+ {
     "slug": "mountains-as-pegs",
     "title": "Are mountains \"pegs\" that stabilize the earth?",
     "category": "science_claims",
