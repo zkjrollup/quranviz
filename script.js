@@ -94,6 +94,7 @@ function buildArcs(){
       }
     }
   });
+  ARCS.sort((a,b) => Math.abs(b.x2 - b.x1) - Math.abs(a.x2 - a.x1));   // longest arcs first, so they render behind shorter ones
 }
 
 // ---- Render ----

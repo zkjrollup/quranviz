@@ -141,6 +141,34 @@ def build_verses_html(topic: dict) -> str:
 
 manifest = []
 
+REQUIRED_FIELDS = ["title", "text", "color", "category", "category_label", "ref", "note", "link"]
+
+missing = []
+for t in topics:
+    for field in REQUIRED_FIELDS:
+        if field not in t:
+            missing.append((t.get("slug", "??"), field))
+
+if missing:
+    print("Missing fields found:")
+    for slug, field in missing:
+        print(f"  - {slug}: missing '{field}'")
+    raise SystemExit("Fix the entries above before generating pages.")
+
+for t in topics:
+    html = PAGE_TEMPLATE.format(
+        title=t["title"],
+        text_escaped=esc(t["text"]),
+        color=t["color"],
+        category=t["category"],
+        category_label=t["category_label"],
+        ref=t["ref"],
+        text=t["text"],
+        note=t["note"],
+        link=t["link"],
+        verses_html=build_verses_html(t),
+    )
+
 for t in topics:
     html = PAGE_TEMPLATE.format(
         title=t["title"],
