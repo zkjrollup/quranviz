@@ -1285,12 +1285,12 @@
 "category": "contradiction",
 "category_label": "Contradictions",
 "color": "#564FE2",
-"ref": "Surah 97:1,, 44:3 vs. 17:106, 25:32",
+"ref": "Surah 97:1, 44:3 vs. 17:106, 25:32",
 "text": "Two verses describe the complete Quran sent down in a single night; called the Night of Decree.  Two other verses explicitly describe it being revealed gradually, in stages, over an extended period, with one directly addressing people who ask why it wasn't revealed all at once.",
 "note": "This is one of the most frequently cited contradictions in critical literature, and the traditional resolution follows the same pattern as several other entries on this site: a two-stage theory, traced to a report attributed to Ibn Abbas, holds that the whole Quran descended at once from the Preserved Tablet to the 'lowest heaven' on the Night of Decree, then was revealed to Muhammed piecemeal from there over roughly 23 years.  That harmonization isn't stated in the verses themselves.  It's a solution from outside the text; in the hadith and tafsir, layered on top of the text to reconcile two descriptions that don't fit together on their own.",
 "link": "https://quran.com/97/1",
 "cluster_id": "quran-revelation-timing",
-"arc_verse": [
+"arc_verses": [
   [
     97,
     1,
@@ -1312,7 +1312,7 @@
     "revealed gradually"
   ]
 ],
-"arc_color": "564FE2",
+"arc_color": "#564FE2",
 "contested_wording": [
   {
     "ref": "Surah 97:1",
