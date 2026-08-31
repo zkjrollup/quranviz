@@ -131,7 +131,15 @@
   position:absolute; top:-1.35rem; left:50%; transform:translateX(-50%);
   font-size:0.72rem; color:#FFFFFF; white-space:nowrap;
 }
-  .cat-cards{ display:grid; grid-template-columns:1fr 1fr; gap:1.3rem; padding-bottom:0.6rem; }
+.cosmology-compare{ max-width:1400px; margin:0 auto; padding:3.2rem 2rem 0.5rem; }
+.cosmology-compare h2{ font-size:1.55rem; font-weight:700; color:#fff; margin:0 0 1.6rem; }
+.compare-grid{ display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; }
+.compare-card img{ width:100%; height:320px; object-fit:contain; background: #000;
+border-radius:10px; border:1px solid var(--line); }
+.compare-caption{ font-size:0.85rem; color:var(--ink-soft); margin-top:0.7rem; line-height:1.5; }
+.compare-credit{ font-size:0.72rem; opacity:0.7; }  
+
+.cat-cards{ display:grid; grid-template-columns:1fr 1fr; gap:1.3rem; padding-bottom:0.6rem; }
   @media (max-width:720px){ .cat-cards{ grid-template-columns:1fr; } }
   .quote-card{
     background:rgba(255,255,255,0.045); border:1px solid var(--line);

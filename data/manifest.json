@@ -216,6 +216,12 @@
     "url": "pages/inheritance-shares-exceed-100.html"
   },
   {
+    "slug": "quran-revealed-once-or-gradually",
+    "title": "Was the Quran revealed all at once, or gradually over 23 years?",
+    "category": "contradiction",
+    "url": "pages/quran-revealed-once-or-gradually.html"
+  },
+  {
     "slug": "mountains-as-pegs",
     "title": "Are mountains \"pegs\" that stabilize the earth?",
     "category": "science_claims",
@@ -254,7 +260,7 @@
   {
     "slug": "apostasy-and-worldly-punishment",
     "title": "Does the Quran itself prescribe a worldly punishment for leaving Islam?",
-    "category": "intol",
+    "category": "intolerance",
     "url": "pages/apostasy-and-worldly-punishment.html"
   },
   {

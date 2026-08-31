@@ -1279,6 +1279,61 @@
       }
     ]
   },
+  {
+"slug": "quran-revealed-once-or-gradually",
+"title": "Was the Quran revealed all at once, or gradually over 23 years?",
+"category": "contradiction",
+"category_label": "Contradictions",
+"color": "#564FE2",
+"ref": "Surah 97:1,, 44:3 vs. 17:106, 25:32",
+"text": "Two verses describe the complete Quran sent down in a single night; called the Night of Decree.  Two other verses explicitly describe it being revealed gradually, in stages, over an extended period, with one directly addressing people who ask why it wasn't revealed all at once.",
+"note": "This is one of the most frequently cited contradictions in critical literature, and the traditional resolution follows the same pattern as several other entries on this site: a two-stage theory, traced to a report attributed to Ibn Abbas, holds that the whole Quran descended at once from the Preserved Tablet to the 'lowest heaven' on the Night of Decree, then was revealed to Muhammed piecemeal from there over roughly 23 years.  That harmonization isn't stated in the verses themselves.  It's a solution from outside the text; in the hadith and tafsir, layered on top of the text to reconcile two descriptions that don't fit together on their own.",
+"link": "https://quran.com/97/1",
+"cluster_id": "quran-revelation-timing",
+"arc_verse": [
+  [
+    97,
+    1,
+    "sent down on the Night of Decree"
+  ],
+  [
+    44,
+    3,
+    "sent down in a blessed night"
+  ],
+  [
+    17,
+    106,
+    "revealed by stages"
+  ],
+  [
+    25,
+    32,
+    "revealed gradually"
+  ]
+],
+"arc_color": "564FE2",
+"contested_wording": [
+  {
+    "ref": "Surah 97:1",
+    "transliteration": "innā anzalnāhu fī laylati al-qadr",
+        "arabic": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
+        "gloss": "\"Indeed, We sent it down during the Night of Decree\""
+      },
+      {
+        "ref": "Surah 17:106",
+        "transliteration": "wa qur'ānan faraqnāhu li-taqra'ahu 'alā al-nāsi 'alā mukthin wa nazzalnāhu tanzīlā",
+        "arabic": "وَقُرْآنًا فَرَقْنَاهُ لِتَقْرَأَهُ عَلَى النَّاسِ عَلَىٰ مُكْثٍ وَنَزَّلْنَاهُ تَنزِيلًا",
+        "gloss": "\"a Quran which We have separated, that you might recite it to the people over time — We sent it down progressively\""
+      },
+      {
+        "ref": "Surah 25:32",
+        "transliteration": "wa qāla alladhīna kafarū law lā nuzzila 'alayhi al-qur'ānu jumlatan wāḥidatan",
+        "arabic": "وَقَالَ الَّذِينَ كَفَرُوا لَوْلَا نُزِّلَ عَلَيْهِ الْقُرْآنُ جُمْلَةً وَاحِدَةً",
+        "gloss": "\"and those who disbelieved said, 'Why was the Quran not sent down to him all at once?'\""
+      }
+    ]
+  },
  {
     "slug": "mountains-as-pegs",
     "title": "Are mountains \"pegs\" that stabilize the earth?",
@@ -1376,7 +1431,7 @@
   {
     "slug": "apostasy-and-worldly-punishment",
     "title": "Does the Quran itself prescribe a worldly punishment for leaving Islam?",
-    "category": "intol",
+    "category": "intolerance",
     "category_label": "Intolerance",
     "color": "#6A3FA0",
     "ref": "Surah 2:217, 3:86-87, 16:106",
