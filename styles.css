@@ -151,7 +151,7 @@ border-radius:10px; border:1px solid var(--line); }
     opacity:0.35; display:block; margin-bottom:-0.4rem;
   }
   .quote-card .quote-text{ font-size:1.03rem; line-height:1.55; color:#EDEDEE; margin:0 0 1.1rem; }
-  .quote-card .quote-note{ font-size:0.82rem; color:var(--ink-soft); margin:0 0 1rem; }
+  .quote-card .quote-note{ font-size:0.82rem; color:var(--ink-soft); margin:0 0 1rem; display:-webkit-box; -webkit-line-clamp:3; line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;}
   .quote-card .quote-ref{ text-align:right; }
   .quote-card .quote-ref a{
     color:var(--cat-color, var(--crimson)); text-decoration:underline; text-underline-offset:3px;
