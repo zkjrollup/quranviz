@@ -1554,6 +1554,56 @@
     ]
   },
   {
+    "slug": "which-days-were-the-mountains-created",
+    "title": "Which day were the mountains created?",
+    "category": "contradiction",
+    "category_label":"Contradictions",
+    "color": "#DE5D48",
+    "ref": "Surah 41:9-12 vs 7:54, 10:3, 11:7, 25:59",
+    "text": "Adding up the days named in this passage is two for the earth, four for the mountains and provisions, two for the seven heavens: 8 total.  Multiple other verses state the whole creation took six days.  The standard harmonization compresses the four days to include the initial two, landing on a Sunday-through-Friday week where mountains are set on Tuesday.  But a separate, independently authenticated hadith (Sahih Muslim 2789) gives a different structure entirely.  Starting on saturday, with mountains created on Sunday, not Tuesday.",
+    "note": "This isn't just a math problem with one accepted fix.  The fixes disagree with eachother.  Ibn Kathir's tafsir on 41:9-12 assigns Sunday-Monday to earth, Tuesday-Wednesday to the mountains and sustenance, and Thursday-Friday to the heavens, compressing the passages' 2+4+2 into a six-day week to match the Quran's other six days verses.  But Sahih Muslim 2789 (Abu Hurairah) describes an entirely different sequence: earth on Saturday, mountains on Sunday, trees on Monday, toil on Tuesday, light on Wednesday, animals on Thursday, Adam on Friday. Neither weekday is stated in the Quran itself; both come from hadith and tafsir layered on top of the text.  But the fact that two authoritative traditional sources can't agree on which day the mountains were made suggests the underlying eight-versus-six tension was never cleanly resolved, only patched in more than one incompatible way.",
+    "link": "https://quran.com/41/9",
+    "cluster_id": "creation-weekday-discrepancy",
+    "arc_verses": [
+      [
+        41,
+        9,
+        "earth created in two days"
+      ],
+      [
+        41,
+        10,
+        "mountains and sustenance in four days"
+      ],
+      [
+        41,
+        12,
+        "heavens completed in two days"
+      ]
+      ],
+      "arc_color": "#DE5D48",
+      "contested_wording": [
+        {
+          "ref": "Surah 41:9",
+           "transliteration": "khalaqa al-arḍa fī yawmayn",
+        "arabic": "خَلَقَ الْأَرْضَ فِي يَوْمَيْنِ",
+        "gloss": "\"created the earth in two days\""
+      },
+      {
+        "ref": "Surah 41:10",
+        "transliteration": "wa qaddara fīhā aqwātahā fī arba'ati ayyāmin sawā'an lil-sā'ilīn",
+        "arabic": "وَقَدَّرَ فِيهَا أَقْوَاتَهَا فِي أَرْبَعَةِ أَيَّامٍ سَوَاءً لِّلسَّائِلِينَ",
+        "gloss": "\"and determined therein its sustenance in four days, equal for those who ask\""
+      },
+      {
+        "ref": "Surah 41:12",
+        "transliteration": "fa-qaḍāhunna sab'a samāwātin fī yawmayn",
+        "arabic": "فَقَضَاهُنَّ سَبْعَ سَمَاوَاتٍ فِي يَوْمَيْنِ",
+        "gloss": "\"and completed them as seven heavens in two days\""
+        }
+      ]
+  },
+  {
     "slug": "solomons-talking-ant-and-hoopoe",
     "title": "Did Solomon really understand the speech of ants and birds?",
     "category": "absurd",
