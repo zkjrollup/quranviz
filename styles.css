@@ -196,7 +196,7 @@ border-radius:10px; border:1px solid var(--line); }
   svg#arcCanvas{
     order: 3;
   }
-  .waveform, .legend, #categorySections, .videos-section, footer.note{
+  .waveform, .legend, #categorySections, .videos-section, #cosmology-compare, footer.note{
     order: 4;
   }
 }
