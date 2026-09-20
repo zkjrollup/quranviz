@@ -1604,6 +1604,50 @@
       ]
   },
   {
+    "slug": "did-lots-wife-leave-or-stay",
+    "title": "Did Lot's wife leave or never leave at all?",
+    "category": "contradiction",
+    "category_label": "Contradictions",
+    "color": "#DE48BB",
+    "ref": "Surah 11:81 vs. 15:60, 26:171, 27:57, 27:135",
+    "text": "Most verses describing Lot's wife say she was 'of those who remained behind' \u2014 she never left with the family at all, and was destroyed along with the rest of the disbelieving city. But 11:81 describes something structurally different: the angels tell Lot's family to travel by night and not look back, 'except your wife' \u2014 implying she was traveling with them, and would look back, which is why she was singled out.",
+    "note": "This isn't a minor wording difference \u2014 it's two different explanations for how she died, and the ambiguity goes back further than modern criticism. Ibn Kathir's own tafsir on 11:81 acknowledges both readings as live options among early commentators: 'it is said that he did not take her along with him; it is also said that she did set out with them and turned round.' Quranic studies scholar Marijn van Putten has separately noted these two accounts are 'difficult to unify' as a single sequence of events.",
+    "link": "https://quran.com/11/81",
+    "cluster_id": "lots-wife-fate",
+    "arc_verses": [
+      [
+        11,
+        81,
+        "except your wife, who will look back"
+      ],
+      [
+        15,
+        60,
+        "decreed to be of those who remained behind"
+      ],
+      [
+        26,
+        171,
+        "an old woman among those who remained behind"
+      ]
+     ],
+    "arc_color":"#DE48BB",
+     "contested_wording": [
+     {
+     "ref": "Surah 11:81",
+     "transliteration": "wa lā yaltafit minkum aḥadun illā imra'atak",
+     "arabic": "وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ إِلَّا امْرَأَتَكَ",
+     "gloss": "\"and let not any among you look back \u2014 except your wife\""
+      },
+      {
+        "ref": "Surah 26:171",
+        "transliteration": "illā 'ajūzan fī al-ghābirīn",
+        "arabic": "إِلَّا عَجُوزًا فِي الْغَابِرِينَ",
+        "gloss": "\"except an old woman among those who remained behind\""
+      }
+    ]
+    },
+  {
     "slug": "solomons-talking-ant-and-hoopoe",
     "title": "Did Solomon really understand the speech of ants and birds?",
     "category": "absurd",
